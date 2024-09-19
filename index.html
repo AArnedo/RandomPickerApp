@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+    <title>RandomPickerApp</title>
+    <link rel="stylesheet" href="./estilos/style.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <h1>¿Quien Lava los platos Hoy?</h1>
+            <textarea id="nombres" cols="80" placeholder="Escribe nombres en cada linea diferente.."></textarea>
+            <div class="btn-conteiner">
+                <button id="btn-start">Comenzar...</button>
+                <button id="btn-restart">Borrar Lista</button>
+            </div>
+            <div id="resultado"></div>
+        </div>
+    </section>
+
+     <!-- Ventana Modal -->
+      <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="loader spinner" role="status"></span>
+            <p>Un momento por favor...</p>
+        </div>
+      </div>
+      <script src="./script/script.js"></script>
+</body>
+</html>
